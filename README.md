@@ -2,9 +2,10 @@
 
 > My attempts at building things for deeper understanding/practice
 
-The repo is organized into sections by context (language/technology). Each section has an appropriate readme describing the projects inside.
+The repo is organized into sections by context (language/technology). Each section has projects and appropriate readmes describing the projects inside.
 
-- [Go](go#readme)
+- Go
+  - [Import scanner](go/import-scanner)
 
 ## Puzzles
 
