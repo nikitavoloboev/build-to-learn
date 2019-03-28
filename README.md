@@ -4,15 +4,18 @@
 
 The repo is organized into sections by context (language/technology). Each section has projects and appropriate readmes describing the projects inside.
 
-- Go
-  - [Import scanner](go/import-scanner)
+Bigger projects are often extracted into [their own GitHub repos](https://wiki.nikitavoloboev.xyz/sharing/my-github).
 
 ## Puzzles
 
-Aside from above projects I also like solving various puzzles. Here are the solutions to ones I attempted to solve.
+I also like solving various puzzles. Below are solutions to ones I attempted to solve.
 
 - [Leetcode](https://github.com/nikitavoloboev/leetcode)
 - [Project Euler](https://github.com/nikitavoloboev/euler)
+
+## Other
+
+- [Project based learning](https://github.com/tuvtran/project-based-learning#readme) - Curated list of project-based tutorials.
 
 ## Thank you
 
