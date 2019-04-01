@@ -1,10 +1,18 @@
-# Build to learn
+# Build to learn [![Thanks](http://bit.ly/saythankss)](https://patreon.com/nikitavoloboev)
 
 > My attempts at building things for deeper understanding/practice
 
 The repo is organized into sections by context (language/technology). Each section has projects and appropriate readmes describing the projects inside.
 
 Bigger projects are often extracted into [their own GitHub repos](https://wiki.nikitavoloboev.xyz/sharing/my-github).
+
+I also use this repo as a way to quickly test out stuff in certain language/framework. Usually this is done by activating a [KM macro](https://wiki.nikitavoloboev.xyz/macos/macos-apps/keyboard-maestro/km-macros) like this:
+
+![](https://i.imgur.com/Ql9fn6L.png)
+
+I also have a macro that will automatically open/switch to this project.
+
+![](https://i.imgur.com/R5EBmX3.png)
 
 ## Puzzles
 
