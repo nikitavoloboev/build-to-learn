@@ -16,6 +16,8 @@ I also use this repo as a way to quickly test out stuff in certain language/fram
 
 I then use [VS Code CodeRunner](https://github.com/formulahendry/vscode-code-runner) extension to quickly run code in those specific files. Makes prototyping ideas and libraries a breeze.
 
+I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas and languages I want to try build them in. The board also includes bigger ideas I want to build out.
+
 ## Puzzles
 
 I also like solving various puzzles. Below are solutions to ones I attempted to solve.
@@ -23,9 +25,13 @@ I also like solving various puzzles. Below are solutions to ones I attempted to 
 - [Leetcode](https://github.com/nikitavoloboev/leetcode)
 - [Project Euler](https://github.com/nikitavoloboev/euler)
 
-## Other
+## Related
 
 - [Project based learning](https://github.com/tuvtran/project-based-learning#readme) - Curated list of project-based tutorials.
+
+## Contributing
+
+I'm [open to ideas](../../issues/new) of things I can try out and build. Assuming it doesn't already exist on my [Trello board](https://trello.com/b/alB1ryRP).
 
 ## Thank you
 
