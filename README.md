@@ -1,6 +1,6 @@
 # Build to learn [![Thanks](http://bit.ly/saythankss)](https://patreon.com/nikitavoloboev)
 
-> My attempts at building things for deeper understanding/practice
+> Attempts at building things for deeper understanding/practice
 
 The repo is organized into sections by context (language/technology). Each section has projects and appropriate readmes describing the projects inside.
 
