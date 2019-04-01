@@ -14,7 +14,7 @@ I also use this repo as a way to quickly test out stuff in certain language/fram
 
 ![](https://i.imgur.com/Ql9fn6L.png)
 
-I then use [VS Code CodeRunner extension](https://github.com/formulahendry/vscode-code-runner) to quickly run code in those specific files. Makes prototyping ideas and libraries a breeze.
+I then use [VS Code CodeRunner](https://github.com/formulahendry/vscode-code-runner) extension to quickly run code in those specific files. Makes prototyping ideas and libraries a breeze.
 
 I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas and languages I want to try build them in. The board also includes bigger ideas I want to build out.
 
