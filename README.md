@@ -22,7 +22,7 @@ I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ide
 
 I also like solving various puzzles. Below are solutions to ones I attempted to solve.
 
-- [Leetcode](https://github.com/nikitavoloboev/leetcode)
+- [LeetCode](https://github.com/nikitavoloboev/leetcode)
 - [Project Euler](https://github.com/nikitavoloboev/euler)
 
 ## Related
