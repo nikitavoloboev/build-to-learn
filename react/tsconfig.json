@@ -5,11 +5,7 @@
     "jsx": "preserve",
     "strict": true,
     "sourceMap": true,
-    "lib": [
-      "es2015",
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2015", "es2017", "dom"],
     "moduleResolution": "node",
     "allowJs": true,
     "skipLibCheck": true,
@@ -20,7 +16,5 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
