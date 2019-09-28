@@ -2,21 +2,21 @@
 
 > Attempts at building things for deeper understanding/practice
 
-The repo is organized into sections by context (language/technology). Each section has projects and appropriate readmes describing the projects inside.
+The repo is organized into sections by context (language/technology). Each section has projects with code and some readmes describing the projects inside.
 
-Bigger projects are often extracted into [their own GitHub repos](https://wiki.nikitavoloboev.xyz/sharing/my-github).
+Bigger projects are often extracted into [their own GitHub repos](https://wiki.nikitavoloboev.xyz/sharing/my-github). The purpose of this repo is a playground for ideas & new learnings.
 
-I have a [KM macro](https://wiki.nikitavoloboev.xyz/macos/macos-apps/keyboard-maestro/km-macros) that will automatically open/switch to this project.
+I have Alfred workflow that searches through the root folders in this repo. On return, the project gets opened in VS Code.
 
-![](https://i.imgur.com/R5EBmX3.png)
+![](https://i.imgur.com/MO1Cbdo.png)
 
 I also use this repo as a way to quickly test out stuff in certain language/framework. Usually this is done by activating a macro like this:
 
-![](https://i.imgur.com/Ql9fn6L.png)
+![](https://i.imgur.com/RBlOSWL.png)
 
 I then use [VS Code CodeRunner](https://github.com/formulahendry/vscode-code-runner) extension to quickly run code in those specific files. Makes prototyping ideas and libraries a breeze.
 
-I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas and languages I want to try build them in. The board also includes bigger ideas I want to build out.
+I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas for small projects I want to build. I have [another board](https://trello.com/b/alB1ryRP) for tracking ideas I actually wish existed & I can use. includes bigger ideas I want to build out.
 
 ## Puzzles
 
