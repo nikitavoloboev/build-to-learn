@@ -1,10 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import SketchTest from "./components/sketch/Sketch";
 
-function Test() {
-  return <div />;
-}
-
-const App = () => <Test />;
+const App = () => <SketchTest />;
 
 ReactDOM.render(<App />, document.getElementById("root"));

@@ -1,4 +1,4 @@
-# Build to learn [![Thanks](http://bit.ly/saythankss)](https://patreon.com/nikitavoloboev)
+# Build to learn [![Thanks](http://bit.ly/saythankss)](https://github.com/users/nikitavoloboev/sponsorship)
 
 > Attempts at building things for deeper understanding/practice
 
@@ -6,7 +6,7 @@ The repo is organized into sections by context (language/technology). Each secti
 
 Bigger projects are often extracted into [their own GitHub repos](https://wiki.nikitavoloboev.xyz/sharing/my-github). The purpose of this repo is a playground for ideas & new learnings.
 
-I have Alfred workflow that searches through the root folders in this repo. On return, the project gets opened in VS Code.
+I have Alfred workflow that searches through the root folders in this repo. On return, the folder gets opened in VS Code.
 
 ![](https://i.imgur.com/MO1Cbdo.png)
 
@@ -16,7 +16,7 @@ I also use this repo as a way to quickly test out stuff in certain language/fram
 
 I then use [VS Code CodeRunner](https://github.com/formulahendry/vscode-code-runner) extension to quickly run code in those specific files. Makes prototyping ideas and libraries a breeze.
 
-I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas for small projects I want to build. I have [another board](https://trello.com/b/alB1ryRP) for tracking ideas I actually wish existed & I can use. includes bigger ideas I want to build out.
+I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas for small projects I want to build. I have [another board](https://trello.com/b/alB1ryRP) for tracking ideas I actually wish existed & I can use. Includes bigger ideas I want to build out.
 
 ## Puzzles
 
@@ -35,6 +35,6 @@ I'm [open to ideas](../../issues/new) of things I can try out and build. Assumin
 
 ## Thank you
 
-You can support me on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
+You can support me on [GitHub](https://github.com/users/nikitavoloboev/sponsorship) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
 
 [![MIT](https://bit.ly/mitbadge)](LICENSE) [![Twitter](https://bit.ly/nikitweet)](https://twitter.com/nikitavoloboev)

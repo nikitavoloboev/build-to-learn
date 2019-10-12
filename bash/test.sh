@@ -1,18 +1,8 @@
 #!/usr/bin/env bash
 
-in="React is nice"
+# if [ -f ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task/todo ]; then
+#     echo "exist"
+# fi
 
-cd /Users/nikivi/Dropbox/Write/blog || exit
-
-# Dash separate & lowercase file name
-swap=${in// /-}
-swap=${$swap | tr '[:upper:]' '[:lower:]'}
-
-echo $swap
-
-# Create file and write title as heading
-# touch "${swap}.md"
-# "$in" >> ${swap}.md
-
-# Edit the file
-# /usr/local/bin/subl ${swap}.md
+[ -f ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task/todo ]
+# echo hello
