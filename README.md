@@ -37,4 +37,4 @@ I'm [open to ideas](../../issues/new) of things I can try out and build. Assumin
 
 You can support me on [GitHub](https://github.com/sponsors/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
 
-[![MIT](https://bit.ly/mitbadge)](LICENSE) [![Twitter](https://bit.ly/nikitweet)](https://twitter.com/nikitavoloboev)
+[![MIT](https://bit.ly/mitbadge)](LICENSE) [![Twitter](http://bit.ly/nikitatweet)](https://twitter.com/nikitavoloboev)
