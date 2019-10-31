@@ -1,8 +1,3 @@
 #!/usr/bin/env bash
 
-# if [ -f ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task/todo ]; then
-#     echo "exist"
-# fi
-
-[ -f ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task/todo ]
-# echo hello
+subl ~/Dropbox/Write/knowledge/looking-back/2019/2019-"$(date +%B | tr '[:upper:]' '[:lower:]')".md
