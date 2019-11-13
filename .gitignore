@@ -1,2 +1,7 @@
 package-lock.json
 yarn.lock
+
+# Private
+data
+private
+*test* # test files
