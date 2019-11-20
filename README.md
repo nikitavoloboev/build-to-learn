@@ -4,11 +4,10 @@
 
 The repo is organized into sections by context (language/technology). Each section has little projects with code. Bigger projects are extracted into [their own GitHub repos](https://wiki.nikitavoloboev.xyz/sharing/my-github). The purpose of this repo is a playground for ideas & new learnings.
 
-I use this repo to test out code in different languages. I ignore these test files as they may contain sensitive info. The actual repo for me looks like:
+I also use this repo to test out code in different languages. I ignore these test files as they may contain sensitive info. The actual repo for me looks like:
 
 ```bash
-~/src/build-to-learn master*
-❯ tree -L 2
+~/src/build-to-learn
 ❯ tree -L 2
 ├── bash
 │   └── test.sh
