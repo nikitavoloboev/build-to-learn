@@ -2,25 +2,37 @@
 
 > Attempts at building things for deeper understanding/practice
 
-The repo is organized into sections by context (language/technology). Each section has projects with code and some readmes describing the projects inside.
+The repo is organized into sections by context (language/technology). Each section has little projects with code. Bigger projects are extracted into [their own GitHub repos](https://wiki.nikitavoloboev.xyz/sharing/my-github). The purpose of this repo is a playground for ideas & new learnings.
 
-Bigger projects are often extracted into [their own GitHub repos](https://wiki.nikitavoloboev.xyz/sharing/my-github). The purpose of this repo is a playground for ideas & new learnings.
+I use this repo to test out code in different languages. I ignore these test files as they may contain sensitive info. The actual repo for me looks like:
+
+```bash
+~/src/build-to-learn master*
+❯ tree -L 2
+❯ tree -L 2
+├── bash
+│   └── test.sh
+├── go
+│   ├── test.go
+├── python
+│   ├── test.py
+```
 
 I have Alfred workflow that searches through the root folders in this repo. On return, the folder gets opened in VS Code.
 
-![](https://i.imgur.com/MO1Cbdo.png)
+![](https://i.imgur.com/rm04gCe.png)
 
-I also use this repo as a way to quickly test out stuff in certain language/framework. Usually this is done by activating a macro like this:
+I can open a lot of these test files directly with [KM macro](https://wiki.nikitavoloboev.xyz/macOS/apps/keyboard-maestro/km-macros):
 
-![](https://i.imgur.com/RBlOSWL.png)
+![](https://i.imgur.com/zYEFk6M.png)
 
-I then use [VS Code CodeRunner](https://github.com/formulahendry/vscode-code-runner) extension to quickly run code in those specific files. Makes prototyping ideas and libraries a breeze.
+I then use VS Code's [CodeRunner extension](https://github.com/formulahendry/vscode-code-runner) to quickly run code in those specific files. Makes prototyping ideas and libraries a breeze.
 
-I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas for small projects I want to build. I have [another board](https://trello.com/b/alB1ryRP) for tracking ideas I actually wish existed & I can use. Includes bigger ideas I want to build out.
+I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas for small projects I want to build. And I have [Ideas board](https://trello.com/b/alB1ryRP) for tracking ideas I actually wish existed & I can use.
 
-## Puzzles
+## Puzzles / practice
 
-I also like solving various puzzles. Below are solutions to ones I attempted to solve.
+I also like solving various puzzles.
 
 - [LeetCode](https://github.com/nikitavoloboev/leetcode)
 - [Project Euler](https://github.com/nikitavoloboev/euler)
