@@ -31,7 +31,7 @@ I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ide
 
 ## Puzzles / practice
 
-I love solving various puzzles.
+I love solving puzzles.
 
 - [LeetCode](https://github.com/nikitavoloboev/leetcode)
 - [Project Euler](https://github.com/nikitavoloboev/euler)
