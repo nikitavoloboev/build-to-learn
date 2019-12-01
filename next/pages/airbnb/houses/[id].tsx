@@ -1,7 +1,6 @@
 import Head from "next/head";
-import DateRangePicker from "../../components/DateRangePicker";
-import Layout from "../../components/Layout";
-import houses from "../houses.json";
+import DateRangePicker from "../../../components/airbnb/DateRangePicker";
+import Layout from "../../../components/airbnb/Layout";
 
 const House = props => (
   <Layout
@@ -46,7 +45,7 @@ House.getInitialProps = ({ query }) => {
   const { id } = query;
 
   return {
-    house: houses.filter(house => house.id === id)[0]
+    // house: houses.filter(house => house.id === id)[0]
   };
 };
 
