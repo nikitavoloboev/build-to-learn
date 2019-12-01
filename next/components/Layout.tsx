@@ -1,9 +1,5 @@
 import Head from "next/head";
 
-const Test = () => {
-  return <div></div>;
-};
-
 const Layout = props => {
   return (
     <div>
@@ -11,7 +7,6 @@ const Layout = props => {
         <title>Home</title>
       </Head>
       <div>{props.children}</div>
-      <Test />
     </div>
   );
 };
