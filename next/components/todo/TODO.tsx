@@ -23,7 +23,9 @@ const TODO = () => {
       <form
         onSubmit={e => {
           e.preventDefault();
-          setTodos([...todos, input]);
+          if (!todos.includes(input)) {
+            setTodos(todos => [...todos, input]);
+          }
           setInput("");
         }}
       >
@@ -44,6 +46,14 @@ const TODO = () => {
           ></Task>
         );
       })}
+      {todos.length > 0 && (
+        <button
+          onClick={e => setTodos([])}
+          style={{ background: "red", color: "white" }}
+        >
+          Clear all
+        </button>
+      )}
     </div>
   );
 };
