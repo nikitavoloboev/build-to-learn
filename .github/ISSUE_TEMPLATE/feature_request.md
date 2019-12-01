@@ -1,6 +1,6 @@
 ---
-name: Feature request ✨
-about: Suggest a new idea for the project
+name: Feature ✨
+about: Suggest new idea for the project
 
 ---
 
