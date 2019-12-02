@@ -29,15 +29,9 @@ I then use VS Code's [CodeRunner extension](https://github.com/formulahendry/vsc
 
 I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas for small projects I want to build. And I have [Ideas board](https://trello.com/b/alB1ryRP) for tracking ideas I actually wish existed & I can use.
 
-## Puzzles / practice
-
-I love solving puzzles.
-
-- [LeetCode](https://github.com/nikitavoloboev/leetcode)
-- [Project Euler](https://github.com/nikitavoloboev/euler)
-
 ## Related
 
+- [Coding Practice](https://wiki.nikitavoloboev.xyz/programming/coding-practice)
 - [Project based learning](https://github.com/tuvtran/project-based-learning#readme) - Curated list of project-based tutorials.
 
 ## Contributing
