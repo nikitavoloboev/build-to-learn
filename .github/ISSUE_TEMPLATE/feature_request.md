@@ -1,12 +1,12 @@
 ---
-name: Feature ✨
+name: ✨ Feature
 about: Suggest new idea for the project
 
 ---
 
 <!-- Please search existing issues to avoid creating duplicates. -->
 
-### Feature ✨
+### ✨ Feature
 <!-- Clear and concise description of the feature proposal. -->
 
 
