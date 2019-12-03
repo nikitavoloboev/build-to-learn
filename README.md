@@ -25,7 +25,7 @@ I can open a lot of these test files directly with [KM macro](https://wiki.nikit
 
 ![](https://i.imgur.com/zYEFk6M.png)
 
-I then use VS Code's [CodeRunner extension](https://github.com/formulahendry/vscode-code-runner) to quickly run code in those specific files. Makes prototyping ideas and libraries a breeze.
+I then use [watchexec](https://github.com/watchexec/watchexec) to automatically run code on file changes. Makes prototyping ideas and libraries a breeze. Sometimes I use VS Code's [CodeRunner extension](https://github.com/formulahendry/vscode-code-runner) too.
 
 I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas for small projects I want to build. And I have [Ideas board](https://trello.com/b/alB1ryRP) for tracking ideas I actually wish existed & I can use.
 
