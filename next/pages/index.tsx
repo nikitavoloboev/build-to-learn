@@ -5,7 +5,6 @@ import Test from "../components/Test";
 const Home = () => (
   <Layout>
     <Test />
-    {/* <TODO /> */}
   </Layout>
 );
 
