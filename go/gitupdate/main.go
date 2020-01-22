@@ -1,14 +1,23 @@
 package main
 
 import (
+	"fmt"
 	"log"
+	"os"
 	"os/exec"
 	"strings"
 )
 
+// Provided a path to a folder. Track all files in folder and commit with file names as commit msg.
+// Then push the folder to remote.
 func main() {
+	args := os.Args
+	if len(args) < 2 {
+		log.Fatal("Please provide a path as argument.")
+	}
+	path := args[1:][0]
 	cmd := exec.Command("/usr/local/bin/git")
-	cmd.Dir = "/Users/nikivi/Dropbox/Write/knowledge"
+	cmd.Dir = path
 	cmd.Args = []string{"git", "diff", "HEAD", "--name-only"}
 	out, err := cmd.Output()
 	if err != nil {
@@ -24,17 +33,18 @@ func main() {
 		}
 		// Track files changed by Git
 		cmd = exec.Command("/usr/local/bin/git")
-		cmd.Dir = "/Users/nikivi/Dropbox/Write/knowledge"
+		cmd.Dir = path
 		cmd.Args = []string{"git", "add", "."}
 		_, err := cmd.Output()
 		if err != nil {
 			log.Fatal(err)
 		}
 		commitMsg := strings.Join(filesChanged, " ")
+		fmt.Println(commitMsg)
 
 		// Commit with a message
 		cmd = exec.Command("/usr/local/bin/git")
-		cmd.Dir = "/Users/nikivi/Dropbox/Write/knowledge"
+		cmd.Dir = path
 		cmd.Args = []string{"git", "commit", "-m", commitMsg}
 		_, err = cmd.Output()
 		if err != nil {
@@ -49,6 +59,5 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-
 	}
 }
