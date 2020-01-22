@@ -53,7 +53,7 @@ func main() {
 
 		// Push changes
 		cmd = exec.Command("/usr/local/bin/git")
-		cmd.Dir = "/Users/nikivi/Dropbox/Write/knowledge"
+		cmd.Dir = path
 		cmd.Args = []string{"git", "push"}
 		_, err = cmd.Output()
 		if err != nil {
