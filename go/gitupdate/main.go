@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os"
 	"os/exec"
@@ -40,7 +39,6 @@ func main() {
 			log.Fatal(err)
 		}
 		commitMsg := strings.Join(filesChanged, " ")
-		fmt.Println(commitMsg)
 
 		// Commit with a message
 		cmd = exec.Command("/usr/local/bin/git")
