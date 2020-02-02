@@ -72,5 +72,4 @@ func update(path string) {
 			log.Fatal(err)
 		}
 	}
-
 }
