@@ -15,16 +15,15 @@ func main() {
 		log.Fatal("Please provide a path as argument.")
 	}
 
-	// Use current path
 	if args[1:][0] == "." {
+		// Use current path
 		path, err := os.Getwd()
 		if err != nil {
 			log.Fatal(err)
 		}
 		update(path)
-
 	} else {
-
+		update(args[1:][0])
 	}
 
 	path := args[1:][0]
