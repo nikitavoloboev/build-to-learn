@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os"
 	"os/exec"
@@ -18,8 +17,12 @@ func main() {
 
 	// Use current path
 	if args[1:][0] == "." {
-		fmt.Println(os.Getwd())
-		// path := os.Getwd()
+		path, err := os.Getwd()
+		if err != nil {
+			log.Fatal(err)
+		}
+		update(path)
+
 	} else {
 
 	}
@@ -68,4 +71,9 @@ func main() {
 			log.Fatal(err)
 		}
 	}
+
+}
+
+func update(path string) {
+
 }
