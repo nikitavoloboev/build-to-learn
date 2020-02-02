@@ -23,6 +23,7 @@ func main() {
 		}
 		update(path)
 	} else {
+		// Use passed in path
 		update(args[1:][0])
 	}
 
