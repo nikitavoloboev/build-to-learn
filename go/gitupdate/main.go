@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 	"os/exec"
@@ -14,6 +15,15 @@ func main() {
 	if len(args) < 2 {
 		log.Fatal("Please provide a path as argument.")
 	}
+
+	// Use current path
+	if args[1:][0] == "." {
+		fmt.Println(os.Getwd())
+		// path := os.Getwd()
+	} else {
+
+	}
+
 	path := args[1:][0]
 	cmd := exec.Command("/usr/local/bin/git")
 	cmd.Dir = path
