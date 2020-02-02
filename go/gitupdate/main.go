@@ -26,8 +26,9 @@ func main() {
 		// Use passed in path
 		update(args[1:][0])
 	}
+}
 
-	path := args[1:][0]
+func update(path string) {
 	cmd := exec.Command("/usr/local/bin/git")
 	cmd.Dir = path
 	cmd.Args = []string{"git", "diff", "HEAD", "--name-only"}
@@ -71,9 +72,5 @@ func main() {
 			log.Fatal(err)
 		}
 	}
-
-}
-
-func update(path string) {
 
 }
