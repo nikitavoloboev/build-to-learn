@@ -6,26 +6,45 @@
  * @flow
  */
 
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
-import React from 'react';
-import {Animation} from './components/Animation';
-import {Home} from './components/Home';
-
-const Stack = createStackNavigator();
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
+import React from 'react'
+import { Feed } from './components/Feed'
+import { Settings } from './components/Settings'
+import { Test } from './components/Test'
 
 // TODO: setup flipper for debugging
+
+const Tab = createBottomTabNavigator()
+const Stack = createStackNavigator()
+
+const TestStack = () => {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="Test" component={Test} />
+      <Stack.Screen name="Feed" component={Feed} />
+    </Stack.Navigator>
+  )
+}
+
+const SettingsStack = () => {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="Settings" component={Settings} />
+    </Stack.Navigator>
+  )
+}
+
 const App: () => React$Node = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={Home}>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Animation" component={Animation} />
-      </Stack.Navigator>
+      <Tab.Navigator>
+        <Tab.Screen name="Test" component={TestStack} />
+        <Tab.Screen name="Settings" component={SettingsStack} />
+      </Tab.Navigator>
     </NavigationContainer>
-  );
-};
+  )
+}
 
-// const styles = StyleSheet.create({});
-
-export default App;
+export default App
