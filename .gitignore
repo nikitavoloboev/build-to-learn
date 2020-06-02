@@ -6,5 +6,6 @@ objectdb
 data
 private
 **test**
+**run**
 /go/go.mod
 /go/go.sum
