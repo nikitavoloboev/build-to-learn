@@ -10,36 +10,34 @@ I also use this repo to test out code in different languages. I ignore these tes
 ~/src/build-to-learn
 ❯ tree -L 2
 ├── bash
-│   └── test.sh
-├── go
-│   ├── test.go
-├── python
-│   ├── test.py
+│   └── run.sh
+├── c
+│   └── run.c
+├── elixir
+│   └── run.es
 ```
 
 I have Alfred workflow that searches through the root folders in this repo. On return, the folder gets opened in VS Code.
 
-![](https://i.imgur.com/rm04gCe.png)
+![](https://i.imgur.com/rkZlIVL.png)
 
 I can open a lot of these test files directly with [KM macro](https://wiki.nikitavoloboev.xyz/macOS/apps/keyboard-maestro/km-macros):
 
-![](https://i.imgur.com/zYEFk6M.png)
+![](https://i.imgur.com/QBhGI2I.png)
 
-I then use [watchexec](https://github.com/watchexec/watchexec) to automatically run code on file changes. Makes prototyping ideas and libraries a breeze. Sometimes I use VS Code's [CodeRunner extension](https://github.com/formulahendry/vscode-code-runner) too.
-
-I use a [Trello board](https://trello.com/b/alB1ryRP) (left column) to track ideas for small projects I want to build. And I have [Ideas board](https://trello.com/b/alB1ryRP) for tracking ideas I actually wish existed & I can use.
+I use [watchexec](https://github.com/watchexec/watchexec) to automatically run code on file changes. Makes prototyping ideas and libraries a breeze.
 
 ## Related
 
 - [Coding Practice](https://wiki.nikitavoloboev.xyz/programming/coding-practice)
-- [Project based learning](https://github.com/tuvtran/project-based-learning#readme) - Curated list of project-based tutorials.
+- [Project based learning](https://github.com/tuvtran/project-based-learning) - Curated list of project-based tutorials.
 
 ## Contributing
 
-I'm [open to ideas](../../issues/new) of things I can try out and build. Assuming it doesn't already exist on my [Trello board](https://trello.com/b/alB1ryRP).
+I'm [open to ideas](../../issues/new) of things I can try out and build.
 
 ## Thank you
 
 You can support me on [GitHub](https://github.com/sponsors/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
 
-[![MIT](https://bit.ly/mitbadge)](LICENSE) [![Twitter](http://bit.ly/nikitatweet)](https://twitter.com/nikitavoloboev)
+[![MIT](https://bit.ly/mitbadge)](license) [![Twitter](http://bit.ly/nikitatweet)](https://twitter.com/nikitavoloboev)
