@@ -31,6 +31,7 @@ I use [watchexec](https://github.com/watchexec/watchexec) to automatically run c
 
 - [Coding Practice](https://wiki.nikitavoloboev.xyz/programming/coding-practice)
 - [Project based learning](https://github.com/tuvtran/project-based-learning) - Curated list of project-based tutorials.
+- [Louis Pilfold's learning repo](https://github.com/lpil/learning)
 
 ## Contributing
 
