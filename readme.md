@@ -19,11 +19,11 @@ I also use this repo to test out code in different languages. I ignore these tes
 
 I have Alfred workflow that searches through the root folders in this repo. On return, the folder gets opened in VS Code.
 
-![](https://i.imgur.com/OnWjn4y.png)
+![](https://i.imgur.com/Bi67zuq.png)
 
 I can open a lot of these test files directly with [KM macro](https://wiki.nikitavoloboev.xyz/macOS/apps/keyboard-maestro/km-macros):
 
-![](https://i.imgur.com/ngSs9cH.png)
+![](https://i.imgur.com/wZ54tPS.png)
 
 I use [watchexec](https://github.com/watchexec/watchexec) to automatically run code on file changes. Makes prototyping ideas and libraries a breeze.
 
