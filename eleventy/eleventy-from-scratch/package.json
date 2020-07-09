@@ -1,0 +1,12 @@
+{
+  "name": "eleventy-from-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
