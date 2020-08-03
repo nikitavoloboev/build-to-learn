@@ -1,11 +1,9 @@
 import Layout from "../components/Layout";
-import TODO from "../components/todo/TODO";
+import Test from "../components/Test";
 
 const Home = () => (
   <Layout>
-    {/* <Test /> */}
-    {/* <Counter /> */}
-    <TODO />
+    <Test />
   </Layout>
 );
 
