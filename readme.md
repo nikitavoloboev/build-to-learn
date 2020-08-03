@@ -1,6 +1,6 @@
 # Learning [![Thanks](http://bit.ly/saythankss)](https://github.com/sponsors/nikitavoloboev)
 
-> Building things for deeper understanding/practice.
+> Learn by building
 
 The repo is organized into sections by context (language/technology). Each section has little projects with code. Bigger projects are extracted into [their own GitHub repos](https://wiki.nikitavoloboev.xyz/sharing/my-github). The purpose of this repo is a playground for ideas & new learnings.
 
