@@ -1,31 +1,36 @@
 package main
 
 import (
+	"flag"
 	"os"
 
 	"github.com/atotto/clipboard"
 )
 
 func main() {
-	save()
+	saveTopLink := flag.Bool("top", false, "save top link")
+	flag.Parse()
+
+	if *saveTopLink {
+		save("/Users/nikivi/Desktop/top-links.md")
+		return
+	}
+	save("/Users/nikivi/Desktop/links.md")
 }
 
 // TODO: include title of the URL
-// TODO: check for error
-// save links in clipboard to file.
-func save() {
+func save(path string) {
 	// get url from clipboard
 	clip, _ := clipboard.ReadAll()
 	clip = clip + "\n"
 
-	// check it's url
+	// TODO: check it's url
 
 	// append url to file (on new line)
-	f, err := os.OpenFile("/Users/nikivi/Desktop/links.md", os.O_APPEND|os.O_WRONLY, 0600)
+	f, err := os.OpenFile(path, os.O_APPEND|os.O_WRONLY, 0600)
 	if err != nil {
 		panic(err)
 	}
-
 	defer f.Close()
 	if _, err = f.WriteString(clip); err != nil {
 		panic(err)
