@@ -19,7 +19,7 @@ func main() {
 }
 
 // TODO: include title of the URL
-// save link clipboard to a list
+// save link from clipboard to a list
 func save(path string) {
 	// get url from clipboard
 	clip, _ := clipboard.ReadAll()
@@ -38,7 +38,7 @@ func save(path string) {
 	}
 }
 
-// open a number links from a list in browser & delete them
+// open a number of links from a list in browser & delete them
 func pop(list string, number int) {
 
 }
