@@ -12,10 +12,10 @@ func main() {
 	flag.Parse()
 
 	if *saveTopLink {
-		save("/Users/nikivi/Desktop/top-links.md")
+		save("/Users/nikivi/Dropbox/Data/top-links.md")
 		return
 	}
-	save("/Users/nikivi/Desktop/links.md")
+	save("/Users/nikivi/Dropbox/Data/links.md")
 }
 
 // TODO: include title of the URL
