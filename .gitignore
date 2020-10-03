@@ -1,7 +1,5 @@
 package-lock.json
 yarn.lock
-.ropeproject
-objectdb
 .next
 data
 private
